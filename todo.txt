@@ -1,0 +1,13 @@
+libft
+
+printf
+
+get_next_line
+
+push_swap
+
+pipex
+
+philosophers
+
+minishell
