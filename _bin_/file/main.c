@@ -232,6 +232,7 @@ int main(int ac, char **av)
 
     if (!strcmp(av[1], "pushswap"))
     {
+        system("norminette pushswap");
         step1();
         step2();
         step3();    

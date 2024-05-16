@@ -9,14 +9,10 @@ dir=$(find . -maxdepth 1 -type d | tail -n 1 | cut -c 3-)
 
 echo -e "${RED}Project: $dir${NC}"
 
-cd _bin_
-cd file
-cc *.c -o tester
-mv tester ../..
-cd ../..
+cc _bin_/file/*.c -o tester
 
 if [ "$dir" == "pushswap" ]; then
-    cd $dir
+    cd "pushswap"
     make
     cd ..
     ./tester "pushswap"
