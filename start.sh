@@ -7,9 +7,7 @@ NC='\033[0m'
 
 dir=$(find . -maxdepth 1 -type d | tail -n 1 | cut -c 3-)
 
-echo "$dir"
-
-#LIBFT
+echo -e "${RED}Project: $dir${NC}"
 
 cd _bin_
 cd file
