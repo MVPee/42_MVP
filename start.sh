@@ -23,3 +23,5 @@ if [ "$dir" == "pushswap" ]; then
 else
     echo -e "${YELLOW}No project detected...${NC}"
 fi
+
+rm tester
