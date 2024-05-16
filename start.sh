@@ -18,7 +18,7 @@ mv tester ../..
 cd ../..
 
 if [ "$dir" == "pushswap" ]; then
-    cd pushswap
+    cd $dir
     make
     mv push_swap ..
     cd ..
