@@ -18,7 +18,6 @@ cd ../..
 if [ "$dir" == "pushswap" ]; then
     cd $dir
     make
-    mv push_swap ..
     cd ..
     ./tester "pushswap"
 else
