@@ -1,11 +1,13 @@
 libft
+    loading...
 
 printf
+    loading...
 
 get_next_line
 
 push_swap
-
+    V
 pipex
 
 philosophers
